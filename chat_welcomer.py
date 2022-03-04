@@ -21,5 +21,3 @@ async def on_message(message):
 
   if f"<@!{client.user.id}>" in msg:
     await message.reply(f"Gladly! {msg[msg.index('<@!'):msg.index('>')+1]}, why don't ya get customize yourself at <#900989098054004736> by getting some roles and then you can have fun and interact with the people this server! Just keep in mind the rules to keep the experience fun for all :D")
-
-client.run(os.environ['TOKEN'])

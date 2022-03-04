@@ -1,6 +1,4 @@
 import discord
-from discord.ext import tasks
-import asyncio
 import os
 
 # token = ""

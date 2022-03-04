@@ -3,5 +3,5 @@ WORKDIR app/
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY . .
-COPY chat-welcomer.py .
-CMD python chat-welcomer.py
+# COPY chat-welcomer.py .
+CMD python chat_welcomer.py

@@ -6,10 +6,12 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
+    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name='over Team Comp'))
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
     print('------')
+    
 
 
 @client.event

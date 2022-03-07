@@ -1,5 +1,7 @@
 # Team Comp Chat Welcomer
 
+### **NOW MOVED TO: [Team-C0MP/chat-welcomer](https://github.com/Team-C0MP/chat-welcomer)**
+
 ## About
 Simple discord.py bot which when pinged with a user in a message, replies to a message pinging the same user.
 
